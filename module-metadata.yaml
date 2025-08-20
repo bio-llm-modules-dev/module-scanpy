@@ -1,0 +1,13 @@
+name: "module-scanpy"
+description: "LLM-invocable module (stdin JSON -> stdout JSON)"
+version: "0.1.0"
+maintainers:
+  - "@dhairya02"
+input_format: json
+output_format: json
+resources:
+  cpu: true
+  gpu: false   # set true/optional in child repo if needed
+labels:
+  - bioinformatics
+  - llm-module
